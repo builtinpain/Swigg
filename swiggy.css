@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 2000px;
+}
+.container{
+    background-color: orangered;
+    height: 1000px;
+   
+    
+}
+.header1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 50px;
+}
+
+.sign{
+    margin-left: 5rem;
+}
+.sign>button{
+    margin-left: 2rem;
+}
+
+#SwiggyCorporate{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: orangered;
+    border: none;
+    color: white;
+
+}
+#Partnerwithus{
+     font-size: 1.2rem;
+    font-weight: bold;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+#GettheApp{
+    border-radius: 10px;
+    border: 1px solid white;
+     font-size: 1.2rem;
+    font-weight: bold;
+    background-color: orangered;
+    padding: 1rem;
+    color: white;
+}
+
+#Signin{
+     border-radius: 10px;
+    border: 1px solid white;
+     font-size: 1rem;
+    font-weight: bold;
+    background-color:black;
+    padding: 1rem;
+   width: 125px;
+    color: white;
+    border: none;
+}
+.header2{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    position: relative;
+}
+#img1{
+    height: 500px;
+}
+#img2{
+    height: 500px;
+}
+.text{
+    margin-top: 6rem;
+}
+.text>h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}.input{
+    margin-top: 1rem;
+    display: flex;
+}
+#deliver{
+     font-size: 1.2rem;
+    padding: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0.3rem;
+}
+#search{
+     font-size: 1.2rem;
+    padding: 1rem;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0.5rem;
+}
+.header3{
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+    margin-left: 3rem;
+}
+
+#img3{
+    height: 350px;
+
+   
+}
+#img4{
+    height: 350px;
+}
+#img5{
+    height: 350px;
+    
+}
+/* ========================= */
+/* Tablet screens (max 1024px) */
+/* ========================= */
+.foodsection{
+    padding: 5rem;
+}
+.section1{
+    padding-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    width: 100%;
+    /* padding-top: 4rem;
+    scroll-behavior: smooth; */
+  
+}
+/* //next page */
+.hidden{
+    display: none;
+
+}
+#nextpage{
+    position: sticky;
+    top: 0px;
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+     
+}
+#page{
+    height: 100px;
+    /* background-color: transparent; */
+    background-color: white;
+}
+.box{
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    background-color: white;
+    font-size: 1rem;
+border: none;
+    font-weight: bold;
+    color: black;
+}
+
+.h2{
+    padding: 2rem;
+}
+#Filter,#SortBy,#Delivery{
+   margin-left: 1rem;
+   border-radius: 10px;
+   padding: 0.5rem;
+   font-weight: bold;
+   border: 1px solid grey;
+}
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin-left: 5rem;
+    margin-top: 2rem;
+   /* padding: 0.5rem; */
+    /* background-color: white; */
+}
+.card:hover{
+    transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-color: white; 
+    cursor: pointer;
+}
+
+#pix{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+#sorting{
+  position: absolute;
+  display: border;
+  top: 220px;
+  left: 320px;
+  background-color: white;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  /* z-index: 1000; */
+}
+
+#Apply{
+    margin-top: 1rem;
+    background-color: rgb(69, 186, 69);
+    color: white;
+    border: none;
+    padding: 0.4rem;
+}
