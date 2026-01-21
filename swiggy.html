@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./swiggy.css">
+
+</head>
+<body>
+    <div class="body">
+    <div class="container">
+        <!-- header -->
+        <div class="header1">
+        <div class="swiggy">
+            <img src="./SWIGGY.avif">  
+        </div>
+            <div class="sign">
+                <button id="SwiggyCorporate">Swiggy Corporate</button>
+                <button id="Partnerwithus">Partner with us</button>
+                <button id="GettheApp">Get the App</button>
+                <button id="Signin">Sign in</button>
+            </div>
+         </div>
+
+         <!-- header2 --> 
+          <div class="header2">
+            <div class="img1">
+                <img src="./img1.avif" alt="" id="img1">
+            </div>
+            <div class="text">
+                <h1>Order food and groceries.Discover</h1>
+                <h1>best restaurants.Swiggy it!</h1>
+                <div class="input">
+                <input type="text" placeholder="Enter your deliver location" id="deliver">
+                <input type="text" placeholder="Search for restaurant,item or more" id="search">
+                </div>
+
+            </div>
+            <div class="img2">
+                <img src="./img2.avif" alt="" id="img2">
+            </div>
+          </div>
+          <!-- header3 -->
+           <div class="header3">
+                <img src="./img3.avif" alt="" id="img3">
+                <img src="./img4.avif" alt="" id="img4">
+                <img src="./img4.avif" alt="" id="img5">
+
+           </div>
+    </div>
+    <div class="foodsection">
+        <h1>Order our best food option</h1>
+        <div class="section1">
+            <img src="./cake.png" alt="" id="cake" style="height: 150px;">
+            <img src="./chole.png" alt="" id="chole" style="height: 150px;">
+            <img src="./Dosa.png" alt="" id="dosa" style="height: 150px;">
+            <img src="./idli.png" alt="" id="idli" style="height: 150px;">
+            <img src="./paratha.png" alt="" id="paratha" style="height: 150px;">
+            <img src="./samosa.png" alt="" id="samosa" style="height: 150px;">
+            <img src="./Tea.png" alt="" id="tea" style="height: 150px;">
+            <img src="./kachori.png" alt="" style="height: 150px;">
+            <img src="./upma.png" alt=""  style="height: 150px;">
+
+        </div>
+    </div>
+    </div>
+
+<div id="nextpage" class="hidden">
+    <div id="page">
+        <div class="h1">
+            <div>
+            <img src="./swiggy.png" alt="" style="background-color: orangered; height: 50px;">
+            </div>
+            <div >
+                <button class="box">Swiggy corporate</button>
+                <button class="box">Search</button>
+                <button class="box">Offer</button>
+                <button class="box">Help</button>
+                <button class="box">Sign in</button>
+                <button class="box">cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="h2">
+        <h1 style="font-size: 3.5rem;">Cakes</h1>
+        <br>
+        <h2 style="color:grey;">Feast on amazing cake to satisfy your sweeth tooth</h2>
+        <br><br>
+        <div >
+        <button id="Filter">Filter</button>
+        <button id="SortBy">SortBy</button>
+        <button id="Delivery">10 Mins Delivery</button> 
+        </div>
+        <br>
+        <h2 style="font-weight: bolder;" id="r">Restaurants to explore</h2>
+    </div>
+
+
+    <div class="root"></div>
+
+    <div id="sorting" class="hidden">
+        <div>
+        <label >
+            <input type="radio" name="select" id="time" value="Deliverytime">Delivery time
+        </label>
+        </div>
+        
+        <div>
+        <label>
+            <input type="radio" name="select" id="rate" value="rating">Rating
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <input type="radio" name="select" id="lowtohigh">Low to high
+        </label>
+        </div>
+
+
+    <div>
+        <label>
+            <input type="radio" name="select" id="highToLow">High to Low
+        </label>
+    </div>
+
+    <button id="Apply">Apply</button>
+
+</div>
+ <script src="./swiggy.js"></script>
+    
+</body>
+</html>
